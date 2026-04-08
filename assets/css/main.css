@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 
 :root {
-  --white: #fff;
   --primary-color: #93e49f;
   --secondary-color: #2f963e;
   --hover-color: #21662b;
@@ -9,8 +8,11 @@
   --info-color: #454545;
   --default-border-radius: 10px;
   --default-transition: all ease 0.5s;
+  --white: #fff;
+  --gray: rgba(204, 204, 204, 0.5);
 }
 
+/* ========== RESET ========= */
 * {
   margin: 0;
   padding: 0;
@@ -135,3 +137,32 @@ body {
 .infos p span {
   color: var(--info-color);
 }
+/* =========== MAIN SECTION END========== */
+
+/* ===========  FOOTER SECTION START ========== */
+.footer {
+  width: 100%;
+
+  text-align: center;
+  font-weight: 600;
+  color: var(--gray);
+  margin-top: 3rem;
+}
+
+footer a {
+  color: var(--gray);
+}
+
+i {
+  color: var(--gray);
+  font-family: inherit;
+}
+
+footer a:hover {
+  color: var(--primary-color);
+}
+
+footer a:hover i {
+  color: var(--primary-color);
+}
+/* ===========  FOOTER SECTION END ========== */
