@@ -12,6 +12,10 @@
     localidade: document.getElementById("localidade"),
   };
 
+  function getCleanCep() {
+    return inputCep.value.replace(/\D/g, "");
+  }
+
   form.addEventListener("submit", function (e) {
     e.preventDefault();
   });
