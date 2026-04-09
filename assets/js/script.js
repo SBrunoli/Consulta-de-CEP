@@ -48,6 +48,29 @@
     }
   }
 
+  Object.values(fields).forEach((field) => {
+    field.addEventListener("click", (e) => {
+      const textToCopy = field.textContent;
+
+      if (textToCopy) {
+        navigator.clipboard.writeText(textToCopy).then(() => {
+          const tooltip = document.createElement("span");
+          tooltip.textContent = "Copiado!";
+          tooltip.classList.add("copy-tooltip");
+
+          tooltip.style.left = `${e.pageX}px`;
+          tooltip.style.top = `${e.pageY - 30}px`;
+
+          document.body.appendChild(tooltip);
+
+          setTimeout(() => {
+            tooltip.remove();
+          }, 1000);
+        });
+      }
+    });
+  });
+
   form.addEventListener("submit", function (e) {
     e.preventDefault();
 
