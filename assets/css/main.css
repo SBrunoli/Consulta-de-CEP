@@ -24,24 +24,19 @@
 body {
   width: 100vw;
   height: 100vh;
-
   display: flex;
   flex-direction: column;
   align-items: center;
-
   background-color: var(--background-black);
 }
 
 /* =========== HEADER SECTION START ========== */
-
 .header {
   min-width: 19.6875rem;
   height: auto;
-
   display: flex;
   flex-direction: column;
   align-items: center;
-
   border-bottom: 3px solid var(--primary-color);
   margin-top: 2.5rem;
 }
@@ -63,7 +58,6 @@ body {
   width: 80%;
   max-width: 43.75rem;
   height: auto;
-
   background-color: var(--primary-color);
   margin-top: 4.375rem;
   border-radius: var(--default-border-radius);
@@ -73,7 +67,6 @@ body {
 .form {
   width: 90%;
   height: 3.125rem;
-
   display: flex;
   gap: 0.5rem;
   margin: 0 auto;
@@ -83,7 +76,6 @@ body {
   flex: 1;
   min-width: 0;
   height: 100%;
-
   color: #000;
   border: none;
   border-radius: var(--default-border-radius);
@@ -104,7 +96,6 @@ body {
 .btn {
   width: auto;
   height: 100%;
-
   padding: 0 1rem;
   border-radius: var(--default-border-radius);
   border: none;
@@ -123,7 +114,6 @@ body {
 
 .infos {
   width: 90%;
-
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -138,12 +128,54 @@ body {
 .infos p span {
   color: var(--info-color);
 }
+
+.infos span {
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.infos span:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/*============ TOOLTIP START =========== */
+.copy-tooltip {
+  position: absolute;
+  background-color: var(--secondary-color);
+  color: var(--white);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  pointer-events: none;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: fadeUp 1s ease-out forwards;
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 0);
+  }
+  20% {
+    opacity: 1;
+    transform: translate(-50%, -10px);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -20px);
+  }
+}
+/*============ TOOLTIP START =========== */
+
 /* =========== MAIN SECTION END========== */
 
 /* ===========  FOOTER SECTION START ========== */
 .footer {
   width: 100%;
-
   text-align: center;
   font-weight: 600;
   color: var(--gray);
