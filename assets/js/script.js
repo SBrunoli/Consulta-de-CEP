@@ -22,6 +22,15 @@
     inputCep.style.border = `4px solid ${color}`;
   }
 
+  function fillAddressFields(data) {
+    fields.logradouro.textContent = data.logradouro || "";
+    fields.bairro.textContent = data.bairro || "";
+    fields.localidade.textContent = data.localidade || "";
+    fields.uf.textContent = data.uf || "";
+    fields.estado.textContent = data.estado || "";
+    fields.regiao.textContent = data.regiao || "";
+  }
+
   async function getInfos(cep) {
     const url = `https://viacep.com.br/ws/${cep}/json/`;
     try {
@@ -33,7 +42,7 @@
         return;
       }
 
-      console.log(data);
+      fillAddressFields(data);
     } catch (error) {
       showError("Erro na conexão!", "#7f8c8d");
     }
