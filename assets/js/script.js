@@ -18,5 +18,19 @@
 
   form.addEventListener("submit", function (e) {
     e.preventDefault();
+
+    const currentCep = getCleanCep();
+
+    if (currentCep.length !== 8) {
+      inputCep.value = "";
+      inputCep.placeholder = "CEP inválido (digite 8 números)";
+      inputCep.style.border = "4px solid #e74c3c";
+      return;
+    }
+  });
+
+  inputCep.addEventListener("input", () => {
+    inputCep.style.border = "";
+    inputCep.placeholder = "Digite seu CEP";
   });
 })();

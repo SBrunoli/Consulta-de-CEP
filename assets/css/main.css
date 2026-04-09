@@ -84,6 +84,7 @@ body {
   min-width: 0;
   height: 100%;
 
+  color: #000;
   border: none;
   border-radius: var(--default-border-radius);
   padding-left: 0.2rem;
