@@ -1,9 +1,15 @@
 # 📍 Consulta de CEP Profissional
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge" alt="Status Concluído">
-  <img src="https://img.shields.io/badge/UI/UX-Figma-orange?style=for-the-badge&logo=figma" alt="Figma Design">
-  <img src="https://img.shields.io/badge/Frontend-HTML/CSS/JS-blue?style=for-the-badge&logo=javascript" alt="Frontend Tech">
+  <img src="https://img.shields.io/badge/Status-Concluído-44cc11?style=for-the-badge" alt="Status Concluído">
+  <br>
+  <img src="https://skillicons.dev/icons?i=html,css,js,figma" />
+</p>
+
+---
+
+<p align="center">
+  <img width="100%" alt="Demonstração do Projeto Consulta de CEP" src="https://github.com/user-attachments/assets/ea388335-85ef-4c80-ac97-0c3f28395ac8" />
 </p>
 
 ---
@@ -16,12 +22,15 @@ O grande diferencial deste projeto é que ele foi **idealizado e desenvolvido 10
 
 ---
 
-## 📸 Visualização do Projeto
+## 🛠 Tecnologias e Ferramentas
 
-<p align="center">
-  <img width="5025" height="2403" alt="Demonstração do Projeto Consulta de CEP" src="https://github.com/user-attachments/assets/ea388335-85ef-4c80-ac97-0c3f28395ac8" />
-</p>
+Para a construção deste projeto, utilizei:
 
+* <img src="https://skillicons.dev/icons?i=html" height="32"> **HTML5:** Estrutura semântica e acessibilidade.
+* <img src="https://skillicons.dev/icons?i=css" height="32"> **CSS3:** Estilização responsiva, animações e tooltips.
+* <img src="https://skillicons.dev/icons?i=js" height="32"> **JavaScript:** Lógica de consumo de API (Fetch), manipulação do DOM e Clipboard API.
+* <img src="https://skillicons.dev/icons?i=figma" height="32"> **Figma:** Prototipagem, design de interface e guia de estilos.
+* <img src="https://skillicons.dev/icons?i=font-awesome" height="32"> **Font Awesome:** Ícones intuitivos para melhorar a navegação.
 
 ---
 
@@ -41,20 +50,6 @@ O grande diferencial deste projeto é que ele foi **idealizado e desenvolvido 10
 
 ---
 
-## 🛠 Tecnologias e Ferramentas
-
-Para a construção deste projeto, utilizei:
-
-| Ferramenta/Tecnologia | Descrição |
-| :--- | :--- |
-| <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" height="20"> | Estrutura semântica do site. |
-| <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" height="20"> | Estilização responsiva, animações e tooltips. |
-| <img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" height="20"> | Lógica, consumo de API (Fetch), manipulação do DOM e Clipboard API. |
-| <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" height="20"> | Prototipagem, design de interface e definição de guia de estilos. |
-| <img src="https://img.shields.io/badge/Font_Awesome-337AB7?style=for-the-badge&logo=Font-Awesome&logoColor=white" height="20"> | Ícones intuitivos na interface. |
-
----
-
 ## 🎨 Design UI/UX (Do Zero ao Código)
 
 Eu acreditei que uma boa ferramenta começa com um bom design. Por isso, desenhei a interface inteira no **Figma** antes de escrever a primeira linha de código. Isso me permitiu definir a paleta de cores, tipografia (Poppins) e testar a usabilidade dos elementos.
@@ -69,7 +64,6 @@ Você pode visualizar o design original e interativo que criei clicando no link 
   </a>
 </p>
 
-
 ---
 
 ## 🚀 Demonstração
@@ -78,7 +72,7 @@ O projeto está publicado e pronto para uso! Teste você mesmo a rapidez da busc
 
 <p align="center">
   <a href="https://sbrunoli.github.io/Consulta-de-CEP/" target="_blank">
-    <img src="https://img.shields.io/badge/Acessar%20Site%20em%20Produção-brightgreen?style=for-the-badge&logo=github&logoColor=white" alt="Link para o Site">
+    <img src="https://img.shields.io/badge/Acessar%20Site%20em%20Produção-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Link para o Site">
   </a>
 </p>
 
@@ -95,7 +89,7 @@ Este projeto foi desenhado e desenvolvido por:
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/bruno-de-oliveira-profissional" target="_blank">
+  <a href="https://www.linkedin.com/in/bruno-de-oliveira-professional" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
 </p>
